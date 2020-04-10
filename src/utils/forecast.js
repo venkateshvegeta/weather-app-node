@@ -8,7 +8,7 @@ const forecast = (longitude, latitude, callback) => {
         } else if (body.error) {
             callback("Unable to find the weather report for the coordinates",undefined)
         } else {
-            callback(undefined,body.daily.data[0].summary + "It is currently " + (5/9)*((body.currently.temperature)-32) + " degrees out there. There is a "
+            callback(undefined,body.daily.data[0].summary + "It is currently " + ((5/9)*((body.currently.temperature)-32)).toFixed(2) + " degrees out there. There is a "
                 + body.currently.precipProbability + "% chance of rain")
 
         }
