@@ -1,0 +1,112 @@
+header {
+    font-family: sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+header a {
+    text-decoration:none;
+}
+#header-nav-bar {
+    right: 10px;
+    position: absolute;
+    top: 12px;
+    font-size: 18px;
+    font-family: cursive;
+}
+header label{
+    font-size: 30px;
+    font-family: cursive;
+}
+footer{
+    border-top: 1px solid #ccc;
+    color:grey;
+    font-family: cursive;
+}
+
+#weather-main-div{
+    width: 800PX;
+    height: 574px
+}
+
+#help-main-div{
+    width: 800PX;
+    height: 558px
+}
+
+#search-field-id{
+    position: absolute;
+    top: 92px;
+    width: 200px;
+    height: 26px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding-inline-start: 6px;
+    outline: none;
+    font-family: cursive;
+}
+
+#title-content-field{
+    position: absolute;
+    top: 62px;
+    font-family: cursive;
+}
+
+#search-btn{
+    position: absolute;
+    font-family: cursive;
+    top: 92px;
+    left: 236px;
+    height: 28px;
+    width: 66px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#forecast {
+    position: absolute;
+    top: 110px;
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: bold;
+    color: #248824;
+}
+
+#error-msg{
+    position: absolute;
+    top: 152px;
+    font-family: cursive;
+}
+
+#help-msg{
+    font-family: cursive;
+}
+
+#help-msg-cont{
+    font-family: cursive;
+}
+
+#pro-pic-id{
+    width: 242px;
+    height: 245px;
+    position: absolute;
+    top: 65px;
+    border-radius: 150px;
+}
+
+#profile-name {
+    position: absolute;
+    top: 320px;
+    left: 72px;
+    font-family: cursive;
+    font-size: 22px;
+}
+
+#profile-cont{
+    position: absolute;
+    top: 360px;
+    left: 72px;
+    font-family: cursive;
+    font-size: 22px;
+}
