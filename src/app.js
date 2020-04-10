@@ -8,6 +8,7 @@ const forecast = require('./utils/forecast')
 console.log(path.join(__dirname,'../public'))
 const publicDirPath = path.join(__dirname,'../public')
 const app = express()
+const port = process.env.PORT || 3000
 const partialdir = path.join(__dirname,'../templates/partial')
 app.set('views',path.join(__dirname,'../templates/views'))
 app.set('view engine', 'hbs')
@@ -74,6 +75,6 @@ app.get("*",(req,res) => {
         message:'404 Page Not Found'
     })
 })
-app.listen(3000,()=>{
-    console.log('Express server starts')
+app.listen(port,()=>{
+    console.log('Server is running on port' + port)
 })
